@@ -3487,19 +3487,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kibet\\.nuget\\packages\\": {}
+    "C:\\Users\\gkibet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kibet\\OneDrive\\Desktop\\Worspace\\Jambopay\\EmployeeApi\\EmployeeApi.csproj",
+      "projectUniqueName": "C:\\Users\\gkibet\\Desktop\\Workspace\\Practice\\Employee\\EmployeeApi\\EmployeeApi.csproj",
       "projectName": "EmployeeApi",
-      "projectPath": "C:\\Users\\kibet\\OneDrive\\Desktop\\Worspace\\Jambopay\\EmployeeApi\\EmployeeApi.csproj",
-      "packagesPath": "C:\\Users\\kibet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kibet\\OneDrive\\Desktop\\Worspace\\Jambopay\\EmployeeApi\\obj\\",
+      "projectPath": "C:\\Users\\gkibet\\Desktop\\Workspace\\Practice\\Employee\\EmployeeApi\\EmployeeApi.csproj",
+      "packagesPath": "C:\\Users\\gkibet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gkibet\\Desktop\\Workspace\\Practice\\Employee\\EmployeeApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kibet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gkibet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3563,7 +3563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

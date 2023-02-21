@@ -3,6 +3,7 @@ using EmployeeApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Globalization;
 
 namespace EmployeeApi.Controllers
 {
@@ -15,23 +16,44 @@ namespace EmployeeApi.Controllers
         {
             _employeeDbContext = employeeDbContext;
         }
-        [HttpGet]
+        [HttpGet("get-all-employees")]
         public async Task<IActionResult> GetAllEmployees()
         {
-            var employees = await _employeeDbContext.Employees.ToListAsync();
-            return Ok(employees);
+            try
+            {
+                var employees = await _employeeDbContext.Employees.ToListAsync();
+
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+            finally
+            {
+                    
+            }
+          
         }
-        [HttpPost]
+        [HttpPost("add-new-employee")]
         public async Task<IActionResult> AddEmployee([FromBody] Employee employeeRequest)
         {
-            //if employee request as data we want to create id for it
-            employeeRequest.Id = Guid.NewGuid();
-            //we add a new employee
-            await _employeeDbContext.Employees.AddAsync(employeeRequest);
-            //we have to save chaanges
-            await _employeeDbContext.SaveChangesAsync();
+            try
+            {
+                employeeRequest.Id = Guid.NewGuid();
 
-            return Ok(employeeRequest);
+                await _employeeDbContext.Employees.AddAsync(employeeRequest);
+
+                await _employeeDbContext.SaveChangesAsync();
+
+                return Ok(employeeRequest);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
         }
         [HttpGet]
         [Route("{id:Guid}")]
