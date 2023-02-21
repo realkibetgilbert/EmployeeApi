@@ -30,7 +30,7 @@ app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin())
 app.UseAuthorization();
 //EXCEPTRION HANDLERS
 app.ConfigureBuiltInExceptionHandler();
-
+app.ConfigureCustomExceptionHandler();
 app.MapControllers();
 
 app.Run();

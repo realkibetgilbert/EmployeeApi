@@ -1,5 +1,6 @@
 ﻿using EmployeeApi.Data;
 using EmployeeApi.Exceptions;
+using EmployeeApi.Exceptions.Filters;
 using EmployeeApi.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -21,10 +22,10 @@ namespace EmployeeApi.Controllers
             _employeeDbContext = employeeDbContext;
         }
         [HttpGet("get-all-employees")]
+      //  [CustomExceptionFilter]
         public async Task<IActionResult> GetAllEmployees()
         {
 
-            throw new Exception("This is unhnsled execption");
             try
             {
                 var employees = await _employeeDbContext.Employees.ToListAsync();
