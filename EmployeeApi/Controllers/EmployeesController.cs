@@ -23,6 +23,8 @@ namespace EmployeeApi.Controllers
         [HttpGet("get-all-employees")]
         public async Task<IActionResult> GetAllEmployees()
         {
+
+            throw new Exception("This is unhnsled execption");
             try
             {
                 var employees = await _employeeDbContext.Employees.ToListAsync();

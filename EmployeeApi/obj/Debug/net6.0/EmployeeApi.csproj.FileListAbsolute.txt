@@ -236,3 +236,4 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\EmployeeApi.pdb
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\EmployeeApi.genruntimeconfig.cache
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\ref\EmployeeApi.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Newtonsoft.Json.dll

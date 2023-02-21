@@ -1,4 +1,5 @@
 using EmployeeApi.Data;
+using EmployeeApi.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,6 +28,8 @@ app.UseHttpsRedirection();
 app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseAuthorization();
+//EXCEPTRION HANDLERS
+app.ConfigureBuiltInExceptionHandler();
 
 app.MapControllers();
 
