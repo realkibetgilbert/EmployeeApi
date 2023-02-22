@@ -23,7 +23,7 @@ namespace EmployeeApi.Controllers
         {
             _employeeDbContext = employeeDbContext;
         }
-        [HttpGet("get-all-employees"), Authorize(Roles ="Admin")]
+        [HttpGet("get-all-employees")]
       //  [CustomExceptionFilter]
         public async Task<IActionResult> GetAllEmployees()
         {
