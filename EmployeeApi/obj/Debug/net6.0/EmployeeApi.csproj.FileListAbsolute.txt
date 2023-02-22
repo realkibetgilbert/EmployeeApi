@@ -164,6 +164,7 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\EmployeeApi.pdb
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\BCrypt.Net-Next.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Humanizer.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -191,6 +192,7 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -236,4 +238,3 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\EmployeeApi.pdb
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\EmployeeApi.genruntimeconfig.cache
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\obj\Debug\net6.0\ref\EmployeeApi.dll
-C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Newtonsoft.Json.dll
