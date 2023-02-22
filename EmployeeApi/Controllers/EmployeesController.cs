@@ -27,6 +27,7 @@ namespace EmployeeApi.Controllers
       //  [CustomExceptionFilter]
         public async Task<IActionResult> GetAllEmployees()
         {
+            //throw new ArgumentException("This is a error");
 
             try
             {

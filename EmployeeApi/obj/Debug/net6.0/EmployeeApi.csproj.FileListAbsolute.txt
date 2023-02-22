@@ -196,6 +196,15 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Scrutor.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll

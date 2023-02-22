@@ -9,7 +9,7 @@ namespace EmployeeApi.Exceptions
     public static class ExceptionMiddlewareExtension
     {
         //BUILT IN EXCEPTION HANDLER 
-
+        
         public static void ConfigureBuiltInExceptionHandler(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(appError =>
@@ -33,6 +33,8 @@ namespace EmployeeApi.Exceptions
                         }.ToString();
 
                         await context.Response.WriteAsync(errorString);
+
+                        
 
                     }
                 });
