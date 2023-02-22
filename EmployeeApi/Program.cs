@@ -4,11 +4,23 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
+using Serilog.Events;
 using Swashbuckle.AspNetCore.Filters;
 using System.Net;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+//Configure Serilog
+Log.Logger = new LoggerConfiguration()
+               .WriteTo.File(
+               path: "C:\\Temp\\EMPLOYEEAPILOGS-.txt",
+               outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm,ss.fff zzz}[{Level:u3}] {Message:lj}{NewLine}{Exception}",
+               rollingInterval: RollingInterval.Day,
+               restrictedToMinimumLevel: LogEventLevel.Information
+               ).CreateLogger();
+
+builder.Host.UseSerilog();
 
 // Add services to the container.
 
@@ -53,9 +65,11 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
 }
+
+    app.UseSwagger();
+
+    app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 //we have to enable cors here
@@ -66,7 +80,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 //EXCEPTRION HANDLERS
 app.ConfigureBuiltInExceptionHandler();
-app.ConfigureCustomExceptionHandler();
+//app.ConfigureCustomExceptionHandler();
 app.MapControllers();
 
 app.Run();
