@@ -56,7 +56,8 @@ namespace EmployeeApi.Controllers
         {
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name,user.UserName)
+                new Claim(ClaimTypes.Name,user.UserName),
+                new Claim(ClaimTypes.Name,"Admin")
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Token"]));

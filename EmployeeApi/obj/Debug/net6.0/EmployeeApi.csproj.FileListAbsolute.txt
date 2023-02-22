@@ -166,6 +166,7 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\BCrypt.Net-Next.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -178,6 +179,7 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -193,6 +195,9 @@ C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Scrutor.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gkibet\Desktop\Workspace\Practice\Employee\EmployeeApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

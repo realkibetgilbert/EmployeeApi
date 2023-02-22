@@ -2,6 +2,7 @@
 using EmployeeApi.Exceptions;
 using EmployeeApi.Exceptions.Filters;
 using EmployeeApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,7 @@ namespace EmployeeApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class EmployeesController : Controller
     {
         private readonly EmployeeDbContext _employeeDbContext;
@@ -21,7 +23,7 @@ namespace EmployeeApi.Controllers
         {
             _employeeDbContext = employeeDbContext;
         }
-        [HttpGet("get-all-employees")]
+        [HttpGet("get-all-employees"), Authorize(Roles ="Admin")]
       //  [CustomExceptionFilter]
         public async Task<IActionResult> GetAllEmployees()
         {
