@@ -25,5 +25,5 @@ jobs:
         run: dotnet build ./EmployeeApi.sln --configuration Release --no-restore
         
       - name: Publish
-        run: dotnet publish ./EmployeeApi.sln --configuration Release --no-build --output
+        run: dotnet publish ./EmployeeApi.sln --configuration Release --no-build --output ./publish
       
