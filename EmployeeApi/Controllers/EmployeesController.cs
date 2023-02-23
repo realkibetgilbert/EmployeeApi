@@ -24,7 +24,9 @@ namespace EmployeeApi.Controllers
             _employeeDbContext = employeeDbContext;
         }
         [HttpGet("get-all-employees")]
+
       //  [CustomExceptionFilter]
+
         public async Task<IActionResult> GetAllEmployees()
         {
             //throw new ArgumentException("This is a error");
